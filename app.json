@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Chess.com",
+    "slug": "chess-com-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#161512"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundColor": "#161512"
+      },
+      "package": "com.chess.mobile",
+      "statusBar": {
+        "backgroundColor": "#21201d",
+        "barStyle": "light-content"
+      }
+    },
+    "plugins": [],
+    "extra": {
+      "eas": {
+        "projectId": "f7394b6e-d2b8-4f91-bfb3-93180d81f7f5"
+      }
+    },
+    "owner": "prakash241"
+  }
+}
